@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+/* Header */
+
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 0;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  gap: 60px;
+}
+
+.list-item a {
+  color: #4C5866;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.list-item a:hover {
+  color: #7875FE;
+  text-decoration: underline;
+}
+
+/* Main */
+
+.main {
+  background-color: #fff;
+  padding-top: 60px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 444px;
+}
+
+.title-text h1 {
+  font-size: 60px;
+  color: #4C5866;
+  line-height: 60px;
+}
+
+.title-text p {
+  font-size: 18px;
+  line-height: 27px;
+  color: #85859b;
+}
+
+.title-text a {
+  width: 255px;
+  padding: 20px 50px;
+  color: #7875FE; 
+  text-align: center;
+  border: 1px solid #7875FE;
+  transition: all 0.5s;
+}
+
+.title-text a:hover {
+  color: #fff;
+  background-color: #7875FE;
+  border: 1px solid #fff;
+}
+
+/* Paper */
+
+.paper {
+  background-color: #EBEBEB;
+}
+
+.paper-header {
+  padding: 90px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.paper-text {
+  width: 160px;
+}
+
+.paper-item {
+  padding-top: 20px;
+  border-top: 1px solid #c0c0c0;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.paper-item p {
+  color: #85859b;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.paper-item h2 {
+  color: #666666;
+  font-size: 18px;
+}
+
+.paper-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paper-main-text {
+  width: 350px;
+}
+
+.paper-main-text h2 {
+  font-size: 40px;
+  line-height: 40px;
+  color: #666666;
+  margin-bottom: 20px;
+}
+
+.paper-main-text p {
+  color: #85859b;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/* Products */
+
+.products-items {
+  padding: 90px 0;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.product-item {
+  padding: 5px;
+  box-shadow: 0 1px 20px #4f4f4f;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.product-item:hover {
+  transform: translate(0,-3rem);
+  box-shadow: 0 1px 40px #7875FE;
+}
+
+
+
+.product-item h4 {
+  font-size: 30px;
+  margin: 20px 0 8px 0;
+  color: #666666;
+}
+
+.product-item span {
+  font-size: 14px;
+  color: #b5b5bd;
+  margin: 8px 0 12px 0;
+}
+
+.product-item p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #85859b;
+  margin-bottom: 20px;
+}
+
+.product-item a {
+  color: #7875FE;
+  font-size: 20px;
+}
+
+/* Logos */
+
+.logos {
+  background-color: #EBEBEB;
+}
+
+.logo-item {
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.logo-item:hover {
+  transform: scale(1.2);
+}
+
+.logos-items {
+  padding: 90px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Books */
+
+.books-box {
+  padding: 90px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.books-text h2 {
+  margin-top: 24px;
+  font-size: 40px;
+  line-height: 40px;
+  color: #666666;
+  margin-bottom: 12px;
+}
+
+.books-text p {
+  color: #85859b;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.books-text a {
+  display: inline-block;
+  padding: 20px 50px;
+  color: #7875FE;
+  border: 1px solid #7875FE;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+
+.books-text a:hover {
+  background-color: #7875FE;
+  color: #fff;
+  transform: scale(1.08);
+}
+
+/* Footer */
+
+.footer {
+  background: #4C5866;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 0;
+}
+
+.footer-items img {
+  cursor: pointer;
+}
+
+.last {
+  text-align: center;
+  font-size: 13px;
+  color: #bcbcbc;
+}
